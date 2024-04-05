@@ -1,25 +1,27 @@
-
-header{
-    background-color: rgb(205 222 238 / 49%);
-
+header {
+    background-color: #000000; /* Add a blue background color */
+    color: white; /* Set text color to white */
+    padding: 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    
 }
-header a{
+
+header a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    float: right;
-    margin: 20px;   
+    margin: 0 10px; /* Add margin for spacing between links */
+    padding: 5px 10px; /* Add padding for a clickable area */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Add smooth transition */
 }
-header a:hover{
-    color: #007bff;
-    transform: scale(1.1);
-    transform: translateY(-5px); /* Move the element 5px up on hover */
-      
+
+header a:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+    transform: translateY(-2px); /* Move the element up slightly on hover */
 }
-header a:focus{
-    color: bisque;
-}
+
 .container{
     width: 100%;
     height: 100%;
@@ -53,42 +55,57 @@ header a:focus{
     padding: 20px;
 }
 
-form {
-    margin-top: 20px;
+form{
+    border: 0px solid black;
+    border-radius: 68px;
+    padding: 44px;
+    width: 220px;
+    height: 260px;
+    font: Arial;
+    font-weight: bold;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 127px;
+    margin-left: 300px;
 }
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 8px;
+label{
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+input{
+    margin-bottom: 10px;
+}
+button
+{
+    background-color: #4caf50;
+    color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-#about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
+    font: Arial;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
+button:hover{
+    transition: transform 0.5s ease;
+    background-color: rgba(50, 120, 120, 0.603);
+}
 
+#about {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Adjust height as needed */
+    text-align: center; /* Center text within the about section */
+    font-family: 'Arial', sans-serif;
 
+}
+body {
+    background-color: #333; /* Set a dark background color fallback */
+    background-image: linear-gradient(120deg, #1a1a1a 0%, #333333 100%); /* Add a gradient background with darker shades */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Set default text color to white for better contrast */
 }
