@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(contact-bg.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        
+        .white-text {
+            color: white;
+        }
+        
+        .blue-text {
+            color: #108AF5;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        input,
+        textarea {
+            border: 1px solid #101010;
+            width: 100%;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border-radius: 30px;
+            color: white;
+            font-size: 16px;
+            background-color: #252525;
+            margin-bottom: 30px;
+            transition: border-color 0.3s ease;
+        }
+        
+        button {
+            transition: all .5s ease;
+            color: #fff;
+            border: 1px solid #108AF5;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1;
+            font-size: 13px;
+            background-color: transparent;
+            padding: 20px 30px;
+            outline: none;
+            border-radius: 30px;
+        }
+        
+        button:hover {
+            color: white;
+            background-color: #108AF5;
+        }
+        
+        textarea {
+            padding: 12px 20px;
+            height: 200px;
+        }
+        
+        input:focus,
+        textarea:focus {
+            border: 1px solid #108AF5;
+            outline: none;
+        }
+        
+        .name-email-container {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .name-email-container input {
+            flex: 1;
+        }
+        
+        h1 {
+            margin-top: 80px;
+            text-align: center;
+            letter-spacing: 5px;
+            font-size: 60px;
+        }
+        
+        .contact-container {
+            color: #fff;
+            margin-top: 30px;
+            
+        }
+        
+        .contact-details p {
+            margin-bottom: 20px;
+            word-spacing: 2px;
+            font-size: 15px;
+            line-height: 1.3em;
+        }
+        
+        form {
+            width: 100%;
+        }
+        
+        .home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        
+        a {
+            display: block;
+            width: 132px;
+            height: 32px;
+            line-height: 35px;
+            font-size: 16px;
+            padding-left: 72px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: #838383;
+            border: 2px solid #7c7c7c;
+            border-radius: 40px;
+            letter-spacing: 2px;
+            text-align: center;
+            position: relative;
+            transition: all .35s;
+        }
+        
+        a:hover {
+            color: #fff;
+            background-color: #108AF5;
+        }
+    </style>
+
+</head>
+<body style="background-image: url(contact-bg.jpg);"></body>
+<a href="home.html" class="home-button">Home</a>
+
+    <h1><span class="white-text">CON</span><span class="blue-text">TACT</span></h1>
+
+    <div class="contact-container">
+
+    <div class="contact-heading">
+
+        <h2>ASK YOUR QUERY !</h2>
+
+        <P style="line-height: 1.3em;">Feel free to get in touch with me. I am always open to answer your questions ann very excited to get project.</P>
+
+    </div>
+
+    <div class="contact-details">
+
+        <h3>My Address</h3>
+
+        <p>Doon Scholars boys Hostel, bidholi <br>near UPES, Dehradun 248007
+
+        </p>
+
+    </div>
+
+    
+
+    <div clas="contact-details">
+
+        <h3>Mail Me</h3>
+
+        <p>Email: madhav0637@gmail.com</p>
+
+    </div>
+
+    
+
+    <div class="contact-details">
+
+        <h3>Call Me</h3>
+
+        <p>Phone: +91 9675820637</p>
+
+    </div>
+
+    </div>
+
+    <div class="container">
+
+        <form action="#" method="post" id="contactForm">
+
+            <div class="name-email-container">
+
+                <div style="flex: 1;">
+
+                    <input type="text" id="name" name="name" placeholder="YOUR NAME" required>
+
+                </div>
+
+                <div style="flex: 1;">
+
+                    <input type="email" id="email" name="email" placeholder="YOUR EMAIL" required>
+
+                </div>
+
+            </div>
+
+            <input type="text" id="subject" name="subject" placeholder="SUBJECT" required>
+
+            <textarea id="message" name="message" placeholder="YOUR MESSAGE" required></textarea>
+
+            <button>SEND MESSAGE</button>
+
+        </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
