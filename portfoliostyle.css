@@ -9,7 +9,7 @@ body {
 
     box-sizing: border-box;
 
-    background-image: url(about-bg.jpg);
+    background-image: url(cool-background.png);
 
     text-align: center;
 }
@@ -125,4 +125,29 @@ a:hover {
 
     background-color: #108AF5;
 
+}
+/* Add CSS styles for certificate rows here */
+.certificate-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Add CSS styles for certificate images and titles here */
+.certificate {
+    width: 30%; /* Adjust width to fit three certificates in a row */
+}
+
+.certificate img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.certificate p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
