@@ -11,9 +11,8 @@ app.controller('CertificatesController', function($scope) {
         { title: "Coursera Excel", image: "courseraexcel.png" },
         { title: "Microsoft AI Oddessy", image: "microsoftaioddessy.jpeg" }
     ];
-
     // Function to chunk the certificates into rows
-    function chunkArray(array, chunkSize) {
+    function chunkArray(array, chunkSize){
         var result = [];
         for (var i = 0; i < array.length; i += chunkSize) {
             result.push(array.slice(i, i + chunkSize));
@@ -36,4 +35,3 @@ app.controller('CertificatesController', function($scope) {
         }
     });
 });
-

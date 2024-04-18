@@ -43,18 +43,15 @@ header a:hover {
     border-radius: 2cm;
 
 }
-
 .card:hover img{
     filter: brightness(0.6);
     border-radius: 10cm;
 }
-
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
-
 form{
     border: 0px solid black;
     border-radius: 68px;

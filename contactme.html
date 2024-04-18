@@ -5,77 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel = "stylesheet" href="contactmestyle.css">
+    <link rel="icon" type="image/x-icon" href="contact-book.png">
 </head>
-<body style="background-image: url(contact-bg.jpg);"></body>
+<body style="background-image: url(contact-bg.jpg);">
 <a href="index.html" class="home-button">Home</a>
-
     <h1><span class="white-text">CON</span><span class="blue-text">TACT</span></h1>
-
     <div class="contact-container">
-
     <div class="contact-heading">
-
         <h2>ASK YOUR QUERY !</h2>
-
         <P style="line-height: 1.3em;">Feel free to get in touch with me. I am always open to answer your questions ann very excited to get project.</P>
-
     </div>
-
     <div class="contact-details">
         <h3>My Address</h3>
         <p>Doon Scholars boys Hostel, bidholi <br>near UPES, Dehradun 248007
         </p>
-    </div>
-    <div clas="contact-details">
         <h3>Mail Me</h3>
         <p>Email: pandeyash1706@gmail.com</p>
-    </div>
-
-    
-
-    <div class="contact-details">
-
         <h3>Call Me</h3>
-
         <p>Phone: +91 8003113200</p>
-
     </div>
-
-    </div>
-
     <div class="container">
-
         <form action="#" method="post" id="contactForm">
-
             <div class="name-email-container">
-
                 <div style="flex: 1;">
-
                     <input type="text" id="name" name="name" placeholder="YOUR NAME" required>
-
                 </div>
-
                 <div style="flex: 1;">
-
                     <input type="email" id="email" name="email" placeholder="YOUR EMAIL" required>
-
                 </div>
-
             </div>
-
             <input type="text" id="subject" name="subject" placeholder="SUBJECT" required>
-
             <textarea id="message" name="message" placeholder="YOUR MESSAGE" required></textarea>
-
-            <button>SEND MESSAGE</button>
-
+            <button id = "sendMessageBtn">SEND MESSAGE</button>
         </form>
-
         </div>
-
     </div>
-
+    <script src = "form.js"></script>
 </body>
-<script src = "form.js"></script>
-
 </html>
